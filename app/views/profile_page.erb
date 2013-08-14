@@ -1,0 +1,10 @@
+
+<div>
+  <h2>Yes. THis is the post page. #winning</h2>
+<% current_user.posts.each do |post| %> 
+<%= post.title %> <a href="/posts/<%= post.id %>"><%= post.title %></a>
+<% end %> 
+</div>
+
+
+

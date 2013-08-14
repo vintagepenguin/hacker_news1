@@ -7,3 +7,14 @@
 th {
   text-align: left;
 }
+
+#create_post_form {
+  border: 2px solid black;
+  text-align: center;  
+  /*margin-left: 200px;*/
+
+}
+
+h1 {
+  text-align: center; 
+}

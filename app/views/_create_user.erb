@@ -1,6 +1,12 @@
-<form>
-  <input type='text' name="user[username]">
-  <input type='text' name="user[email]">
-  <input type='text' name="user[password_digest]">
-
+<form name="create_user_form" action="/create_user" method="post">  
+  Username:
+  <input type='text' name="username">
+  <br>
+  Email:
+  <input type='text' name="email">
+  <br>
+  Password:
+  <input type='text' name="password">
+  <br>
+  <input type="submit" name="submit">
 </form>

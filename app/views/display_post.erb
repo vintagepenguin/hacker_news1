@@ -1,0 +1,32 @@
+<% @user = User.find_by_id(@post.user_id) %> 
+
+<h1><%= @post.title %> </h1>
+<h3><a href="<%= @post.post_link %>">URL</a></h3>
+<h3><%= @user.user_name %> </h3>
+<hr>
+ 
+
+
+
+
+ <form id="create_comment_form" name="create_post_form" action="/create_comment" method="post">
+  Title:  
+  <input type="text" name="title">
+  Post Link:
+  <input type="text" name="post_link">
+  <br>
+  <input type="submit" name="submit">
+
+
+</form>
+ 
+
+
+
+
+
+
+
+
+
+ 
